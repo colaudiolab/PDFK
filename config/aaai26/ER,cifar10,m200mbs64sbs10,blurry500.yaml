@@ -1,0 +1,19 @@
+
+learner         :       ER
+optim           :       Adam
+learning_rate   :       0.0005
+momentum        :       0
+weight_decay    :       0
+dataset         :       cifar10
+n_tasks         :       5
+mem_size        :       200
+mem_batch_size  :       64
+batch_size      :       10
+nf              :       64
+tf_type         :       full
+training_type   :       blurry
+blurry_scale    :       500
+kfr_enable      : true
+kfr_eval_interval   : 20
+kfr_k               : 20,40
+kfr_probe_batch_size: 256
